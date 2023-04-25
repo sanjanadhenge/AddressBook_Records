@@ -18,6 +18,7 @@ namespace AddressBookSysytem
                 int option = Convert.ToInt32(Console.ReadLine());
                 switch (option)
                 {
+                    //UC16
                     case 1:
                         operation.GetAllRecords();
                         break;
