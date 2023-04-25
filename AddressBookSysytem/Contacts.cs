@@ -17,5 +17,6 @@ namespace AddressBookSysytem
         public string zip { get; set; }
         public string PhoneNumber { get; set; }
         public string Email { get; set; }
+        public DateTime StartDate { get; set; }
     }
 }
