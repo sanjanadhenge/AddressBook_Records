@@ -18,7 +18,7 @@ namespace AddressBookSysytem
                 int option = Convert.ToInt32(Console.ReadLine());
                 switch (option)
                 {
-                    //UC16
+                    
                     case 1:
                         operation.GetAllRecords();
                         break;
@@ -41,7 +41,8 @@ namespace AddressBookSysytem
                         operation.DeleteData(11);
                         break;
                     case 4:
-                       operation.UpdateData(1, "Sanjana@gmail.com");
+                        //UC17
+                        operation.UpdateData(1, "Sanjana@gmail.com");
                         break;
                     case 5:
                         flag = false;
