@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Diagnostics.Contracts;
@@ -13,6 +14,7 @@ namespace AddressBookSysytem
         public static string connectionstring = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=AddressBook_Servive_DB";
         SqlConnection connection = new SqlConnection(connectionstring);
         Contacts contact = new Contacts();
+        List<Contacts> list = new List<Contacts>();
         public void GetAllRecords()
         {
 
@@ -30,6 +32,7 @@ namespace AddressBookSysytem
                     {
                         while (read.Read())
                         {
+                            Contacts contact = new Contacts();
                             contact.ID = read.GetInt32(0);
                             contact.FirstName = read.GetString(1);
                             contact.LastName = read.GetString(2);
@@ -40,10 +43,10 @@ namespace AddressBookSysytem
                             contact.PhoneNumber = read.GetString(7);
                             contact.Email = read.GetString(8);
                             contact.StartDate = read.GetDateTime(9);
-
+                            list.Add(contact);
                             Console.WriteLine(contact.ID + "\n" + contact.FirstName + "\n" + contact.LastName + "\n" + contact.Address + "\n" + contact.City + "\n" + contact.State + "\n" + contact.zip + "\n" + contact.PhoneNumber + "\n" + contact.Email + "\n" + contact.StartDate);
                         }
-
+                        WriteToJson(@"C:\Users\SOURABH\Desktop\Day 3\AddressBook_Records\AddressBookSysytem\Json.json");
                     }
                     else
                     {
@@ -56,6 +59,11 @@ namespace AddressBookSysytem
             {
                 throw new Exception(ex.Message);
             }
+        }
+        public void WriteToJson(string filePath)
+        {
+            var json = JsonConvert.SerializeObject(list);
+            File.WriteAllText(filePath, json);
         }
         public void GetDataWithinTimePeriod(DateTime FromDate, DateTime ToDate)
         {

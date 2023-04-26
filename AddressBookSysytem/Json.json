@@ -1,0 +1,126 @@
+{
+    "Data":
+    [
+        {
+            "ID": 1,
+            "FirstName": "Sanjana",
+            "LastName": "Dhenge",
+            "Address": "1461 A Ward",
+            "City": "Kolhapur",
+            "State": "MH",
+            "zip": "415265",
+            "PhoneNumber": "1266455",
+            "Email": "Sanjana@gmail.com",
+            "StartDate": "2021-07-15T00:00:00"
+        },
+        {
+            "ID": 2,
+            "FirstName": "C",
+            "LastName": "D",
+            "Address": "1462 A Ward",
+            "City": "Kolhapur",
+            "State": "abc",
+            "zip": "415275",
+            "PhoneNumber": "9897463",
+            "Email": "B@gmail.com",
+            "StartDate": "2022-05-20T00:00:00"
+        },
+        {
+            "ID": 3,
+            "FirstName": "E",
+            "LastName": "F",
+            "Address": "1463 A Ward",
+            "City": "Nashik",
+            "State": "pqr",
+            "zip": "415265",
+            "PhoneNumber": "789564",
+            "Email": "C@gmail.com",
+            "StartDate": "2022-06-09T00:00:00"
+        },
+        {
+            "ID": 4,
+            "FirstName": "G",
+            "LastName": "H",
+            "Address": "1464 A Ward",
+            "City": "Kolhapur",
+            "State": "MH",
+            "zip": "415765",
+            "PhoneNumber": "9586147",
+            "Email": "D@gmail.com",
+            "StartDate": "2021-07-16T00:00:00"
+        },
+        {
+            "ID": 5,
+            "FirstName": "I",
+            "LastName": "J",
+            "Address": "1465 A Ward",
+            "City": "Mumbai",
+            "State": "MH",
+            "zip": "515265",
+            "PhoneNumber": "124655",
+            "Email": "E@gmail.com",
+            "StartDate": "2023-01-17T00:00:00"
+        },
+        {
+            "ID": 6,
+            "FirstName": "K",
+            "LastName": "L",
+            "Address": "1466 A Ward",
+            "City": "Kolhapur",
+            "State": "abc",
+            "zip": "415275",
+            "PhoneNumber": "9298455",
+            "Email": "F@gmail.com",
+            "StartDate": "2021-07-19T00:00:00"
+        },
+        {
+            "ID": 7,
+            "FirstName": "M",
+            "LastName": "N",
+            "Address": "1467 A Ward",
+            "City": "Raygad",
+            "State": "MH",
+            "zip": "418265",
+            "PhoneNumber": "8984565",
+            "Email": "G@gmail.com",
+            "StartDate": "2023-03-15T00:00:00"
+        },
+        {
+            "ID": 8,
+            "FirstName": "O",
+            "LastName": "P",
+            "Address": "1468 A Ward",
+            "City": "Kankavli",
+            "State": "Keral",
+            "zip": "425265",
+            "PhoneNumber": "8298455",
+            "Email": "H@gmail.com",
+            "StartDate": "2021-06-06T00:00:00"
+        },
+        {
+            "ID": 10,
+            "FirstName": "Radha",
+            "LastName": "Patil",
+            "Address": "1461 B Ward",
+            "City": "Kolhapur",
+            "State": "MH",
+            "zip": "415265",
+            "PhoneNumber": "1266455",
+            "Email": "A@gmail.com",
+            "StartDate": "2023-02-15T00:00:00"
+        },
+        {
+            "ID": 12,
+            "FirstName": "Sambhav",
+            "LastName": "Dhenge",
+            "Address": "1461 A ward",
+            "City": "Kolhapur",
+            "State": "MH",
+            "zip": "416012",
+            "PhoneNumber": "99754865",
+            "Email": "abc@gmail.com",
+            "StartDate": "2021-07-15T00:00:00"
+        }
+    ]
+
+}

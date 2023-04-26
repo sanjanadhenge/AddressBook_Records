@@ -1,0 +1,28 @@
+{
+	"info": {
+		"_postman_id": "45b541af-0162-4121-9261-ae90327c3818",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "   http://localhost:3000/Data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/Data",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Data"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
